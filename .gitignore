@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # Ignore environment variable file
-.env
+var.env

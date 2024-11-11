@@ -40,3 +40,11 @@ ALTER TABLE IF EXISTS public.produtos
 ```
 INSERT INTO public.produtos (descricao, preco, estoque) VALUES ('Produto A', 29.99, 100), ('Produto B', 15.50, 200), ('Produto C', 45.00, 50), ('Produto D', 5.99, 300), ('Produto E', 99.95, 25);
 ```
+# .env base
+```
+DB_USER=postgres
+DB_NAME=ProdutoAPI
+DB_PASSWORD=suaSenha
+DB_HOST=localhost
+DB_PORT=5432
+```
